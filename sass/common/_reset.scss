@@ -24,10 +24,10 @@ html {
   .ui-selectable {
     @include user-select(text);
   }
-}
-@include selection {
-  background: $selection-bg;
-  color     : $selection-text;
+  @include selection {
+    background: $selection-bg;
+    color     : $selection-text;
+  }
 }
 
 *,
