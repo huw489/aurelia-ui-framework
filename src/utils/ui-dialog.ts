@@ -148,7 +148,7 @@ export class UIDialogService {
             this.nextActive();
           }
 
-          dialog.deactivate();
+          dialog.deactivate && dialog.deactivate();
         }
       });
   }
